@@ -37,6 +37,7 @@ class TimelineFragment:Fragment(){
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val v =  inflater!!.inflate(R.layout.timeline_layout,container,false)
 
+
         (activity as AppCompatActivity).setSupportActionBar(v.toolbar_main)
         pageAdapter = TimelinePageAdapter(activity.supportFragmentManager)
         pageAdapter!!.addFragments(day1(),"Day 1")

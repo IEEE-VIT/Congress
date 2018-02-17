@@ -10,7 +10,7 @@
         android:icon="@drawable/ic_chat"/>
     <item
         android:id="@+id/bm_notifications"
-        android:title="Congress"
+        android:title="Congress Info"
         android:icon="@drawable/ic_location_city_black_24dp"/>
     <item
         android:id="@+id/bm_profile"

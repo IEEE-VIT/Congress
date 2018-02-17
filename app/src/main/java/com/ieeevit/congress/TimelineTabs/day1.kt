@@ -41,12 +41,14 @@ class day1 : Fragment() {
 
         var day = Day()
 
+
         day.event1 = "AI"
         day.event2 = "Block Chain"
         day.event3 = "Crypto Currency"
         day.venue1 = "SJT 614"
         day.venue2 = "SJT 714"
         day.venue3 = "SJT 814"
+
         day.speaker1 = "Bharath"
         day.speaker2 = "Yash"
         day.speaker3 = "Saransh"

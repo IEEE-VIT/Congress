@@ -19,6 +19,7 @@ class DayAdapter(private val list:ArrayList<Day>,private val context:Context):Re
     }
 
     override fun getItemCount(): Int {
+
         return list.size
     }
 
